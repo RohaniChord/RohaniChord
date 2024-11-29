@@ -1,0 +1,146 @@
+
+
+
+
+.fcontainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 10vh;
+    
+    
+}
+
+.wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 20px;
+    background-color: antiquewhite;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1,5em;
+    padding: 15px;
+}
+
+.firstname {
+    color: rgb(25, 20, 20) ;
+    font-weight: 700;
+}
+
+.lastname {
+    color: blue;
+    padding-left: 4px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.navigation>li {
+    list-style-type: none;
+    padding: 15px;
+    margin: 5px;
+
+}
+
+.navigation>li>a:hover{
+    
+    transition: all .4s ease-in-out
+}
+.navigation>li>a {
+    color: blue;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.navigation> li > img {
+    width: 50px;
+    height: 40px;
+}
+
+.lagulagu {
+    
+    display: block;
+    justify-content: center;
+    align-items: center;
+    list-style-type: disc;
+    unicode-bidi: isolate;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    columns: 200px 3;
+    
+
+    
+}
+
+.pilihan1 {
+    border: 3px solid;
+    list-style-type: disc;
+    padding: 10px;
+    margin: 40px;
+    height: 20vh;
+    background-color: aqua;
+    
+}
+
+.chord {
+   
+
+}
+
+.judulchord {
+    
+    font-size: 30px;
+}
+.youtube {
+    width: "560";
+    height: "315";
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+.kolom-lagu{
+    
+    columns: 200px 3;
+}
+.lirikkj{
+    color:black;
+    padding: 3px 0;
+    border-bottom: 1px dashed #181717;
+    font-size: 5px;
+    background-color: transparent;
+    font-size: 20px;
+    height: 40px;
+}
+
+.result-box{
+    border-top: 1px solid #999;
+    padding: 15px 10px;
+}
+,.result-box ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+}
+
+.search-box{
+    width: 600px;
+    margin: 200px auto 0;
+    border-radius: 5px;
+}
